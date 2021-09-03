@@ -1,4 +1,6 @@
 import discord
+import config
+
 from discord.ext import commands
 
 client = commands.Bot(command_prefix="*", intents=intents, case_sensitive=True)
